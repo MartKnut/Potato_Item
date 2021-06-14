@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8dd707f87150d4f9c19696bfa1d462, type: 3}
+  m_Name: Item_Copper_Shortsword
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 3761792149322860947, guid: b1cf3bec1ead2214096d69f19cc2e5ce, type: 3}
+  type: 2
+  description: 'An old classic, '
+  atkBonus: 5
+  isMelee: 1
+  isRanged: 0
+  isMagic: 0

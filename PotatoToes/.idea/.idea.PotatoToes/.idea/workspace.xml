@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9ac95abc-c5a1-4dc9-8bcb-6b21b6d74c89" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ItemScripts/BlockObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ItemScripts/WeaponObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ItemScripts/FurnitureObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Database/ItemDatabaseObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/UserInterface/CollaborateWindow.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/DefaultObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/ItemObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ItemScripts/BuffObjects.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ItemScripts/WeaponObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ItemScripts/BlockObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ItemScripts/FurnitureObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ItemScripts/ItemObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ItemScripts/EquipmentObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ItemScripts/DefaultObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/DisplayInventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Database/ItemDatabaseObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player_Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryScripts/InventoryObject.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1twhqZMFGpI5YPtleR06I42ph99" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ac95abc-c5a1-4dc9-8bcb-6b21b6d74c89" name="Default Changelist" comment="" />
+      <created>1623686258084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623686258084</updated>
+      <workItem from="1623686271038" duration="4027000" />
+      <workItem from="1623690775046" duration="11009000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="833" y="171" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1623690267655">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="833" y="171" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.864@0.0.1536.864" timestamp="1623690267655" />
+    <state x="985" y="137" key="RiderGenerateDialog" timestamp="1623701199242">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="985" y="137" key="RiderGenerateDialog/0.0.1536.864@0.0.1536.864" timestamp="1623701199242" />
+    <state x="809" y="200" key="run.anything.popup" timestamp="1623687778228">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="809" y="200" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1623687778228" />
+  </component>
+</project>

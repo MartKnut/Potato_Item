@@ -6,7 +6,7 @@ namespace Player_Scripts
     public class Player : MonoBehaviour
     {
         public InventoryObject inventory;
-        public float moveSpeed = 15;
+        public float moveSpeed = 200;
         private Rigidbody2D rb;
         
         // public string m_Path;
@@ -35,19 +35,21 @@ namespace Player_Scripts
 
         private void Update()
         {
+            Movement();
+            SaveLoad();
+        }
+        
+        private void Movement() 
+        {
             var x = Input.GetAxisRaw("Horizontal");
             var y = Input.GetAxisRaw("Vertical");
             rb.velocity = new Vector3(x, y).normalized * (moveSpeed * Time.deltaTime);
-            
-            if (Input.GetKeyDown(KeyCode.K))
-            {
-                inventory.Save();
-            }
-
-            if (Input.GetKeyDown(KeyCode.L))
-            {
-                inventory.Load();
-            }
+        }
+        
+        void SaveLoad()
+        {
+            if (Input.GetKeyDown(KeyCode.K)) inventory.Save();
+            if (Input.GetKeyDown(KeyCode.L)) inventory.Load();
         }
     }
 }

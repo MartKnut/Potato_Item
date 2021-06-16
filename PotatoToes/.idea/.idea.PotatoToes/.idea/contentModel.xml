@@ -20,7 +20,7 @@
             <e p="BuffObjects.cs" t="Include" />
             <e p="DefaultObject.cs" t="Include" />
             <e p="FurnitureObject.cs" t="Include" />
-            <e p="Item.cs" t="Include" />
+            <e p="GroundItem.cs" t="Include" />
             <e p="ItemObject.cs" t="Include" />
             <e p="WeaponObject.cs" t="Include" />
           </e>

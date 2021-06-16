@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce3b6039aeb9bc0448ceffcb53b93dcd, type: 3}
   m_Name: Item_Dirt
   m_EditorClassIdentifier: 
-  prefab: {fileID: 8974151887727524185, guid: 4d9e3f923a2ca3d4aae5d3ff60829f3e, type: 3}
+  ID: 0
+  uIDisplay: {fileID: 7482667652216324306, guid: 7f6be35181573be4a966592f05e7dd2c, type: 3}
   type: 4
   description: Dirty
   isWall: 0

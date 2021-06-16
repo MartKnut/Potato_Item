@@ -1,4 +1,5 @@
 using InventoryScripts;
+using ItemScripts;
 using UnityEngine;
 
 namespace Player_Scripts
@@ -20,17 +21,17 @@ namespace Player_Scripts
 
         public void OnTriggerEnter2D(Collider2D other)
         {
-            var item = other.GetComponent<Item>();
+            var item = other.GetComponent<GroundItem>();
             if (item)
             {
-                inventory.AddItem(item.item, 1);
+                inventory.AddItem(new Item(item.groundItem), 1);
                 Destroy(other.gameObject);
             }
         }
     
         private void OnApplicationQuit()
         {
-            inventory.container.Clear();
+            inventory.container.Items.Clear();
         }
 
         private void Update()

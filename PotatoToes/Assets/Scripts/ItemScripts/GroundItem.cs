@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using ItemScripts;
 using UnityEngine;
 
-public class Item : MonoBehaviour
+public class GroundItem : MonoBehaviour
 {
-    public ItemObject item;
+    public ItemObject groundItem;
 }

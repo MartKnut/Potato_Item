@@ -14,6 +14,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ItemScripts/BlockObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ItemScripts/WeaponObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ItemScripts/FurnitureObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ItemScripts/GroundItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Database/ItemDatabaseObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/UserInterface/CollaborateWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/127E81E1-CB34-41CC-97D2-6B1910DAAE77/9e/75dd28e9/Debug.cs" root0="SKIP_HIGHLIGHTING" />
@@ -27,17 +28,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemScripts/WeaponObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemScripts/BlockObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemScripts/FurnitureObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ItemScripts/ItemObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemScripts/EquipmentObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemScripts/DefaultObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/DisplayInventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ItemScripts/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ItemScripts/ItemObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryScripts/InventoryObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player_Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Database/ItemDatabaseObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryScripts/DisplayInventory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player_Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryScripts/InventoryObject.cs" />
       </list>
     </option>
   </component>
@@ -115,5 +117,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="809" y="200" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1623687778228" />
+    <state x="815" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1623872984952">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="815" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1623872984952" />
   </component>
 </project>

@@ -37,9 +37,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemScripts/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemScripts/ItemObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryScripts/InventoryObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player_Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Database/ItemDatabaseObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryScripts/DisplayInventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player_Scripts/Player.cs" />
       </list>
     </option>
   </component>

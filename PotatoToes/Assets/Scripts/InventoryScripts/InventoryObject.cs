@@ -29,7 +29,7 @@ namespace InventoryScripts
         {
             for (int i = 0; i < container.Items.Count; i++)
             {
-                if (container.Items[i].item == _item)
+                if (container.Items[i].item.Id == _item.Id)
                 {
                     container.Items[i].AddAmount(_amount);
                     return;

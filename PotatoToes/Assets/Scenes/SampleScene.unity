@@ -988,6 +988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 11400000, guid: f812501abe903e6468cb53957b71c7f1, type: 2}
+  moveSpeed: 200
 --- !u!1 &1162711725
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,28 +12,28 @@ namespace InventoryScripts
     public class InventoryObject : ScriptableObject, ISerializationCallbackReceiver
     {
         public string savePath;
-        private ItemDatabaseObject database;
-        public List<InventorySlot> Container = new List<InventorySlot>();
+        private ItemDatabaseObject _database;
+        public List<InventorySlot> container = new List<InventorySlot>();
         private void OnEnable()
         {
 #if UNITY_EDITOR
-            database = (ItemDatabaseObject) AssetDatabase.LoadAssetAtPath("/Assets/Resources/Item_Database.asset", typeof(ItemDatabaseObject));
+            _database = (ItemDatabaseObject)AssetDatabase.LoadAssetAtPath("Assets/Resources/Database.asset", typeof(ItemDatabaseObject));
 #else
-            database = Resources.Load<ItemDatabaseObject>("Database");
+            _database = Resources.Load<ItemDatabaseObject>("Database.asset");
 #endif
         }
         
         public void AddItem(ItemObject _item, int _amount)
         {
-            for (int i = 0; i < Container.Count; i++)
+            for (int i = 0; i < container.Count; i++)
             {
-                if (Container[i].item == _item)
+                if (container[i].item == _item)
                 {
-                    Container[i].AddAmount(_amount);
+                    container[i].AddAmount(_amount);
                     return;
                 }
             }
-            Container.Add(new InventorySlot(database.GetID[_item], _item, _amount));
+            container.Add(new InventorySlot(_database.GetID[_item], _item, _amount));
             
         }
 
@@ -62,7 +62,7 @@ namespace InventoryScripts
 
         public void OnAfterDeserialize()
         {
-            for (int i = 0; i < Container.Count; i++) Container[i].item = database.GetItem[Container[i].ID];
+            for (int i = 0; i < container.Count; i++) container[i].item = _database.GetItem[container[i].ID];
         }
     }
 

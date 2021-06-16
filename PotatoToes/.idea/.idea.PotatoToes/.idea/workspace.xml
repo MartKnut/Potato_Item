@@ -16,6 +16,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ItemScripts/FurnitureObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Database/ItemDatabaseObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/UserInterface/CollaborateWindow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/127E81E1-CB34-41CC-97D2-6B1910DAAE77/9e/75dd28e9/Debug.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -34,8 +35,9 @@
         <option value="$PROJECT_DIR$/Assets/DisplayInventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Database/ItemDatabaseObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player_Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryScripts/DisplayInventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryScripts/InventoryObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player_Scripts/Player.cs" />
       </list>
     </option>
   </component>
@@ -80,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1623686258084</updated>
       <workItem from="1623686271038" duration="4027000" />
-      <workItem from="1623690775046" duration="11009000" />
+      <workItem from="1623690775046" duration="14743000" />
     </task>
     <servers />
   </component>

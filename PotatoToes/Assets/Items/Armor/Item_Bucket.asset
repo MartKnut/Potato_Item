@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a40cb78d98a0de4dbbfb9eee58213da, type: 3}
   m_Name: Item_Bucket
   m_EditorClassIdentifier: 
-  prefab: {fileID: 312217903664189276, guid: 0b615ef1f621b5542b74155fa23407ad, type: 3}
+  ID: 2
+  uIDisplay: {fileID: 0}
   type: 1
   description: Bulky and makes it harder to hit your enemies... But at least your
     head is protected?
+  buffs: []
   atkBonus: -1
   defBonus: 5
   manaBonus: 0

@@ -11,6 +11,7 @@ namespace InventoryScripts
     [CreateAssetMenu(fileName = "New Inventory", menuName = "Inventory System/Inventory")]
     public class InventoryObject : ScriptableObject, ISerializationCallbackReceiver
     {
+        private string gamePath;
         public string savePath;
         private ItemDatabaseObject _database;
         public List<InventorySlot> container = new List<InventorySlot>();
@@ -19,7 +20,7 @@ namespace InventoryScripts
 #if UNITY_EDITOR
             _database = (ItemDatabaseObject)AssetDatabase.LoadAssetAtPath("Assets/Resources/Database.asset", typeof(ItemDatabaseObject));
 #else
-            _database = Resources.Load<ItemDatabaseObject>("Database.asset");
+            _database = Resources.Load<ItemDatabaseObject>("Database");
 #endif
         }
         
@@ -34,7 +35,6 @@ namespace InventoryScripts
                 }
             }
             container.Add(new InventorySlot(_database.GetID[_item], _item, _amount));
-            
         }
 
         public void Save()
